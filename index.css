@@ -1,0 +1,32 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.tools {
+  padding: 20px;
+  width: 100%;
+  position: absolute;
+  z-index: 100;
+}
+
+canvas {
+  position: absolute;
+}
+
+button {
+  background-color: #7986cb;
+  border: none;
+  border-radius: 20px;
+  padding: 7px 20px;
+  color: white;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  cursor: pointer;
+}
+
+button:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
